@@ -16,7 +16,7 @@
 <div class="row">
   <div class="col-md-12">
     <%= calendar @date do |date| %>
-          <a href="https://fairviewmansion.skedda.com/booking?viewdate=<%=date.year%>-<%=date.month%>-<%=date.day%>"><%= date.day %></a>
+          <a target="_blank" href="https://fairviewmansion.skedda.com/booking?viewdate=<%=date.year%>-<%=date.month%>-<%=date.day%>"><%= date.day %></a>
 
     <% end %>
   </div>
